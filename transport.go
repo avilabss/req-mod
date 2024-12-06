@@ -3175,7 +3175,8 @@ func (pc *persistConn) writeRequest(r *http.Request, w io.Writer, usingProxy boo
 			})
 			return nil
 		}
-		sort = true
+		// XXX: headers sort disabled
+		// sort = true
 	} else {
 		writeHeader = _writeHeader
 	}
