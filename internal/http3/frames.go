@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/imroc/req/v3/internal/quic-go/quicvarint"
+	"github.com/avilabss/req-mod/internal/quic-go/quicvarint"
 	"github.com/quic-go/quic-go"
 )
 

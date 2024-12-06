@@ -3,12 +3,13 @@ package github
 import (
 	"context"
 	"fmt"
-	"github.com/imroc/req/v3"
+	"strconv"
+	"strings"
+
+	"github.com/avilabss/req-mod"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
-	"strconv"
-	"strings"
 )
 
 // Client is the go client for GitHub API.

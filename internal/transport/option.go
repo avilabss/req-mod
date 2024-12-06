@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/imroc/req/v3/internal/dump"
+	"github.com/avilabss/req-mod/internal/dump"
 )
 
 // Options is transport's options.

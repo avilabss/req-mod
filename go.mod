@@ -1,4 +1,4 @@
-module github.com/imroc/req/v3
+module github.com/avilabss/req-mod
 
 go 1.22.0
 

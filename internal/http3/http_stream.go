@@ -7,9 +7,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/imroc/req/v3/internal/compress"
-	"github.com/imroc/req/v3/internal/dump"
-	"github.com/imroc/req/v3/internal/transport"
+	"github.com/avilabss/req-mod/internal/compress"
+	"github.com/avilabss/req-mod/internal/dump"
+	"github.com/avilabss/req-mod/internal/transport"
 
 	"github.com/quic-go/quic-go"
 

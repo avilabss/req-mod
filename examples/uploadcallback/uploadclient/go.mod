@@ -4,9 +4,9 @@ go 1.21
 
 toolchain go1.22.3
 
-replace github.com/imroc/req/v3 => ../../../
+replace github.com/avilabss/req-mod => ../../../
 
-require github.com/imroc/req/v3 v3.0.0
+require github.com/avilabss/req-mod v3.0.0
 
 require (
 	github.com/cheekybits/genny v1.0.0 // indirect

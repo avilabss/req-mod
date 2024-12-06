@@ -12,7 +12,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/imroc/req/v3/internal/header"
+	"github.com/avilabss/req-mod/internal/header"
 )
 
 var (

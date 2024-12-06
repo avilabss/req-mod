@@ -21,9 +21,9 @@ import (
 	utls "github.com/refraction-networking/utls"
 	"golang.org/x/net/publicsuffix"
 
-	"github.com/imroc/req/v3/http2"
-	"github.com/imroc/req/v3/internal/header"
-	"github.com/imroc/req/v3/internal/util"
+	"github.com/avilabss/req-mod/http2"
+	"github.com/avilabss/req-mod/internal/header"
+	"github.com/avilabss/req-mod/internal/util"
 )
 
 // DefaultClient returns the global default Client.

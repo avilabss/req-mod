@@ -4,11 +4,7 @@ import (
 	"encoding/json"
 	"encoding/xml"
 	"fmt"
-	"github.com/imroc/req/v3/internal/header"
-	"github.com/imroc/req/v3/internal/tests"
 	"go/token"
-	"golang.org/x/text/encoding/simplifiedchinese"
-	"golang.org/x/text/transform"
 	"io"
 	"net/http"
 	"net/http/httptest"
@@ -21,6 +17,11 @@ import (
 	"sync"
 	"testing"
 	"unsafe"
+
+	"github.com/avilabss/req-mod/internal/header"
+	"github.com/avilabss/req-mod/internal/tests"
+	"golang.org/x/text/encoding/simplifiedchinese"
+	"golang.org/x/text/transform"
 )
 
 func tc() *Client {

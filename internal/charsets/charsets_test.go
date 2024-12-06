@@ -5,10 +5,11 @@
 package charsets
 
 import (
-	"github.com/imroc/req/v3/internal/tests"
 	"os"
 	"runtime"
 	"testing"
+
+	"github.com/avilabss/req-mod/internal/tests"
 )
 
 var sniffTestCases = []struct {

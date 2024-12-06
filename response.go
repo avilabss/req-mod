@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/imroc/req/v3/internal/header"
-	"github.com/imroc/req/v3/internal/util"
+	"github.com/avilabss/req-mod/internal/header"
+	"github.com/avilabss/req-mod/internal/util"
 )
 
 // Response is the http response.

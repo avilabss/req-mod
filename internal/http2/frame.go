@@ -16,8 +16,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/imroc/req/v3/http2"
-	"github.com/imroc/req/v3/internal/dump"
+	"github.com/avilabss/req-mod/http2"
+	"github.com/avilabss/req-mod/internal/dump"
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/http2/hpack"
 )

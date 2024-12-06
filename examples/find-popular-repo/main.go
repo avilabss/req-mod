@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/imroc/req/v3"
+	"github.com/avilabss/req-mod"
 )
 
 // Change the name if you want

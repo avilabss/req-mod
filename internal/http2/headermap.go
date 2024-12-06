@@ -5,9 +5,10 @@
 package http2
 
 import (
-	"github.com/imroc/req/v3/internal/ascii"
 	"net/http"
 	"sync"
+
+	"github.com/avilabss/req-mod/internal/ascii"
 )
 
 var (

@@ -4,10 +4,10 @@ go 1.21
 
 toolchain go1.22.3
 
-replace github.com/imroc/req/v3 => ../../
+replace github.com/avilabss/req-mod => ../../
 
 require (
-	github.com/imroc/req/v3 v3.0.0
+	github.com/avilabss/req-mod v3.0.0
 	go.opentelemetry.io/otel v1.9.0
 	go.opentelemetry.io/otel/exporters/jaeger v1.9.0
 	go.opentelemetry.io/otel/sdk v1.9.0

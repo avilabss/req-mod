@@ -1,9 +1,10 @@
 package req
 
 import (
-	"github.com/imroc/req/v3/internal/charsets"
 	"io"
 	"strings"
+
+	"github.com/avilabss/req-mod/internal/charsets"
 )
 
 var textContentTypes = []string{"text", "json", "xml", "html", "java"}

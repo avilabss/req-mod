@@ -12,8 +12,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/imroc/req/v3/internal/dump"
-	reqheader "github.com/imroc/req/v3/internal/header"
+	"github.com/avilabss/req-mod/internal/dump"
+	reqheader "github.com/avilabss/req-mod/internal/header"
 	"github.com/quic-go/qpack"
 
 	"github.com/quic-go/quic-go"
